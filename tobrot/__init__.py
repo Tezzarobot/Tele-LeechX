@@ -81,7 +81,7 @@ __version__ = "2.6.36"
 
 # The Telegram API things >>>>>>>>>>>
 TG_BOT_TOKEN = getVar("TG_BOT_TOKEN", "")
-APP_ID = int(getVar("APP_ID", "12345"))
+APP_ID = int(getVar("APP_ID", "8871887"))
 API_HASH = getVar("API_HASH", "")
 OWNER_ID = int(getVar("OWNER_ID", "539295917"))
 
