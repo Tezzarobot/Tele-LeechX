@@ -206,7 +206,7 @@ DEF_IMDB_TEMPLATE = getVar("IMDB_TEMPLATE", "")
 
 #Telegraph Creds  >>>>>>>>>>>
 TGH_AUTHOR = getVar("TGH_AUTHOR ", "Tele-LeechX")
-TGH_AUTHOR_URL = getVar("TGH_AUTHOR_URL", "https://t.me/FXTorrentz")
+TGH_AUTHOR_URL = getVar("TGH_AUTHOR_URL", "https://t.me/Gw_links")
 
 #Bot Command [Bot PM & Log Channel]  >>>>>>>>>>>
 LEECH_LOG = getVar("LEECH_LOG", "")
