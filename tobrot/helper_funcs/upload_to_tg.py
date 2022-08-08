@@ -810,7 +810,7 @@ async def upload_single_file(
                             chat_id=LEECH_LOG,
                             document=local_file_name,
                             thumb=thumb,
-                            caption=f"<code>{base_file_name}</code>\n\n♨️ 𝕌𝕡𝕝𝕠𝕒𝕕𝕖𝕕 𝔹𝕪 @FXTorrentz ♨️",
+                            caption=f"<code>{base_file_name}</code>\n\n♨️ 𝕌𝕡𝕝𝕠𝕒𝕕𝕖𝕕 𝔹𝕪 @Gw_links ♨️",
                             parse_mode=enums.ParseMode.HTML,
                             disable_notification=True,
                             progress=prog.progress_for_pyrogram,
@@ -837,7 +837,7 @@ async def upload_single_file(
                                         chat_id=i, 
                                         document=sent_message.document.file_id,
                                         thumb=thumb,
-                                        caption=f"<code>{base_file_name}</code>\n\n♨️ 𝕌𝕡𝕝𝕠𝕒𝕕𝕖𝕕 𝔹𝕪 @FXTorrentz ♨️",
+                                        caption=f"<code>{base_file_name}</code>\n\n♨️ 𝕌𝕡𝕝𝕠𝕒𝕕𝕖𝕕 𝔹𝕪 @Gw_links ♨️",
                                         parse_mode=enums.ParseMode.HTML
                                     )
                             except Exception as err:
