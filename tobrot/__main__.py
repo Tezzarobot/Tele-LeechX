@@ -139,8 +139,8 @@ async def start(client, message):
     """/start command"""
     buttons = [
             [
-                InlineKeyboardButton('Channel', url='https://t.me/+pD1pCjzufeM5NGU1'),
-                InlineKeyboardButton('Group', url='https://t.me/tezzasupportchannel'),
+                InlineKeyboardButton('Group', url='https://t.me/+pD1pCjzufeM5NGU1'),
+                InlineKeyboardButton('Channel', url='https://t.me/tezzasupportchannel'),
             ]
             ]
     reply_markup=InlineKeyboardMarkup(buttons)
@@ -242,7 +242,7 @@ if __name__ == "__main__":
                         qText = qData['data'][0]['quoteText']
                         qAuthor = qData['data'][0]['quoteAuthor']
                         #qGenre = qData['data'][0]['quoteGenre']
-                        text += f"\n\n📬 𝙌𝙪𝙤𝙩𝙚 :\n\n<b>{qText}</b>\n\n🏷 <i>By {qAuthor}</i>"
+                        text += f"\n\n📬 𝙌𝙪𝙤𝙩𝙚 :\n\n<b>{qText}</b>\n\n🏷 <i>By Gw Links</i>"
                 except Exception as q:
                     LOGGER.info("Quote API Error : {q}")
             if AUTH_CHANNEL:
